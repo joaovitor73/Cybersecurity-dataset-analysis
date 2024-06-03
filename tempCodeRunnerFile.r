@@ -1,0 +1,5 @@
+library('dplR')
+dados <- read.table(file = "updated_cybersecurity_attacks.csv",  header = T,  sep=",", dec = ".", quote = '"')
+head(dados)
+tail(dados)
+str(dados)
